@@ -1,0 +1,3 @@
+rootProject.name = 'alysonNativev2'
+
+include ':app'
