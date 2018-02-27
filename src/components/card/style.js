@@ -20,7 +20,7 @@ const imageBox = {
 };
 const textBox = {
   marginTop: 10,
-  flex: 2,
+  flex: 4,
 };
 
 const title = {
@@ -39,6 +39,7 @@ const subDescription = {
 };
 
 const button = {
+  flex: 1,
   marginTop: 20,
 };
 
