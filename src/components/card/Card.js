@@ -17,7 +17,7 @@ class Card extends Component {
           <Text style={styles.subDescription}> {this.props.subDescription} </Text>
         </View>
         <View style={styles.button}>
-          <Button text="View" outline />
+          <Button text={this.props.buttonText} outline />
         </View>
       </View>
     );

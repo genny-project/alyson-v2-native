@@ -1,23 +1,25 @@
 import React, { Component } from 'react';
+import { StackNavigator } from 'react-navigation';
+import { TextInput } from 'react-native';
 
-class Profile extends Component{
+class ProfileScreen extends Component {
+
+  constructor () {
+    state = {
+      text: '',
+    }
+  }
 
   render() {
-    return(
-
+    return (
+      <TextInput onChangeText= {} value={this.state.text}/>
     );
   }
 }
 
-export default Profile;
-
-
-
-
-
-
-
-
-
-
+export default StackNavigator({
+  Profile: {
+    screen: ProfileScreen,
+  },
+});
 
