@@ -2,22 +2,23 @@ import { StyleSheet } from 'react-native';
 
 
 const container = {
-  height: 190,
-  padding: 10,
-  margin: 30,
-  width: '100%',
-  borderColor: '#e3e3e3',
-  borderWidth: 1,
-  borderRadius: 2,
-  flex: 1,
+  height: 120,
+  flex: 0,
   flexDirection: 'row',
-  justifyContent: 'space-between',
+  margin: 10,
+  padding: 10,
+  paddingVertical: 10,
+  borderWidth: 1,
+  borderRadius: 5,
+  borderColor: '#e8e8e8',
+
 };
 
 const imageBox = {
   marginTop: 10,
   flex: 1,
 };
+
 const textBox = {
   marginTop: 10,
   flex: 4,

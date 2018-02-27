@@ -24,7 +24,7 @@ export default class App extends Component<Props> {
     return (
 
       <View style={styles.container}>
-      <Card></Card>
+      <Card title="Heading" description="lorem ipsum heading" subDescription="This is a sub description"/>>
       </View>
     );
   }
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#fff',
   },
   
   welcome: {

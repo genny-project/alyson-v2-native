@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { View, Image, Text } from 'react-native';
 import { Button, ProfileImage } from '../';
 import styles from './style';
+import { string } from 'prop-types';
 
 class Card extends Component {
   render() {
@@ -11,9 +12,9 @@ class Card extends Component {
           <ProfileImage />
         </View>
         <View style={styles.textBox}>
-          <Text style={styles.title}> Heading </Text>
-          <Text style={styles.description}> Loren ipsum description </Text>
-          <Text style={styles.subDescription}> Sub description </Text>
+          <Text style={styles.title}> {this.props.title} </Text>
+          <Text style={styles.description}> {this.props.description} </Text>
+          <Text style={styles.subDescription}> {this.props.subDescription} </Text>
         </View>
         <View style={styles.button}>
           <Button text="View" />
@@ -22,5 +23,12 @@ class Card extends Component {
     );
   }
 }
+
+
+Card.propTypes = {
+  title: string,
+  description: string,
+  subDescription: string,
+};
 
 export default Card;
