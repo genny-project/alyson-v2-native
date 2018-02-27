@@ -3,16 +3,16 @@ import { StackNavigator } from 'react-navigation';
 import { TextInput } from 'react-native';
 
 class ProfileScreen extends Component {
-
-  constructor () {
-    state = {
+  constructor(props) {
+    super(props);
+    this.state = {
       text: '',
-    }
+    };
   }
 
   render() {
     return (
-      <TextInput onChangeText= {} value={this.state.text}/>
+      <TextInput onChangeText={this.handleTextChange} value={this.state.text} />
     );
   }
 }
