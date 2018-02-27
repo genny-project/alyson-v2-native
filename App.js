@@ -24,7 +24,7 @@ export default class App extends Component<Props> {
     return (
 
       <View style={styles.container}>
-      <Card title="Heading" description="lorem ipsum heading" subDescription="This is a sub description"/>>
+      <Card title="Heading" description="lorem ipsum heading" subDescription="This is a sub description"/>
       </View>
     );
   }

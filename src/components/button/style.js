@@ -11,6 +11,14 @@ const defaultBtn = {
   borderRadius: BORDER_RADIUS,
 };
 
+const outline = {
+  borderWidth: 3,
+  borderColor: '#3498db',
+  backgroundColor: '#fff',
+  padding: 8,
+
+};
+
 
 const dangerBtn = {
   backgroundColor: '#e74c3c',
@@ -55,6 +63,7 @@ const styles = StyleSheet.create({
   small: { ...defaultBtn, ...smallBtn },
   medium: { ...mediumBtn },
   large: { ...largeBtn },
+  outline: { ...outline },
   text,
 });
 
