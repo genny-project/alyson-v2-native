@@ -11,10 +11,6 @@ const defaultBtn = {
   borderRadius: BORDER_RADIUS,
 };
 
-const smallBtn = {
-  width: 140,
-  height: 35,
-};
 
 const dangerBtn = {
   backgroundColor: '#e74c3c',
@@ -24,6 +20,26 @@ const warningBtn = {
   backgroundColor: '#f1c40f',
 };
 
+const successBtn = {
+  backgroundColor: 'green',
+};
+
+const smallBtn = {
+  width: 140,
+  height: 35,
+};
+
+const largeBtn = {
+  width: 230,
+  height: 45,
+};
+
+const mediumBtn = {
+  width: 200,
+  height: 40,
+};
+
+
 const text = {
   color: '#fff',
   textAlign: 'center',
@@ -31,12 +47,14 @@ const text = {
 
 };
 
-
 const styles = StyleSheet.create({
   default: { ...defaultBtn },
   danger: { ...defaultBtn, ...dangerBtn },
   warning: { ...defaultBtn, ...warningBtn },
+  success: { ...successBtn },
   small: { ...defaultBtn, ...smallBtn },
+  medium: { ...mediumBtn },
+  large: { ...largeBtn },
   text,
 });
 

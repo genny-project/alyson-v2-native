@@ -4,7 +4,6 @@ import { View, Text, TouchableHighlight } from 'react-native';
 import buttonStyle from './style';
 
 
-console.log(buttonStyle.danger);
 const Button = ({ text, onPress }) => (
   <TouchableHighlight
     onPress={onPress}
@@ -12,11 +11,17 @@ const Button = ({ text, onPress }) => (
   >
     <Text style={buttonStyle.text} > {text} </Text>
   </TouchableHighlight>
-
 );
 
 Button.defaultProps = {
   text: 'Default text',
+  medium: true,
+  large: false,
+  small: false,
+  outline: false,
+  primary: true,
+  warning: false,
+  danger: false,
 };
 
 export default Button;

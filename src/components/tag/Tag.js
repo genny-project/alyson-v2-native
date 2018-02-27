@@ -4,7 +4,7 @@ import { string } from 'prop-types';
 
 import tagStyle from './style';
 
-const Tag = ({ text }) => (
+const Tag = ({ text, primary }) => (
   <View style={tagStyle.default}>
     <Text style={tagStyle.textDefault}>  {text}  </Text>
   </View>
