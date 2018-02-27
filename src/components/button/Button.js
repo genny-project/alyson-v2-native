@@ -4,10 +4,10 @@ import { View, Text, TouchableHighlight } from 'react-native';
 import buttonStyle from './style';
 
 
-const Button = ({ text, onPress }) => (
+const Button = ({ text, onPress, style }) => (
   <TouchableHighlight
     onPress={onPress}
-    style={buttonStyle.warning}
+    style={[buttonStyle.warning, style]}
   >
     <Text style={buttonStyle.text} > {text} </Text>
   </TouchableHighlight>

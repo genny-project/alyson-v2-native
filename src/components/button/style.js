@@ -4,7 +4,7 @@ import * as common from '../../styles/common';
 const { BORDER_RADIUS } = common;
 
 const defaultBtn = {
-  width: 200,
+  width: 60,
   height: 40,
   padding: 10,
   backgroundColor: '#3498db',

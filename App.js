@@ -5,7 +5,7 @@ import {
   Text,
   View
 } from 'react-native';
-import {Button, Tag} from './src/components';
+import {Button, Tag, Card} from './src/components';
 
 
 
@@ -24,8 +24,7 @@ export default class App extends Component<Props> {
     return (
 
       <View style={styles.container}>
-        <Button text="Demo"/>
-        <Tag text= "hello" style={{marginTop:50}}/>
+      <Card></Card>
       </View>
     );
   }
