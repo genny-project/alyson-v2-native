@@ -7,7 +7,8 @@ class ProfileJumbotron extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <ProfileImage style={{ height: 100, width: 100 }} />
+        <Text> Personal Information </Text>
+        <ProfileImage style={{ height: 140, width: 140, marginTop: 20 }} />
         <Text style={styles.name}> Nischal Gautam</Text>
         <Text style={styles.position}> Full Stack Javascript Developer </Text>
         <Text style={styles.company}> GADA Technologies </Text>

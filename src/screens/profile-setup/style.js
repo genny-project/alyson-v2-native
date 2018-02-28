@@ -2,17 +2,16 @@ import { StyleSheet } from 'react-native';
 
 
 const container = {
+  backgroundColor: '#f2f2f2',
   flex: 1,
-  alignItems: 'center',
-  justifyContent: 'center',
 };
 
 const input = {
-  height: 50,
+  height: 40,
   borderColor: '#e3e3e3',
   backgroundColor: '#fff',
   padding: 10,
-  marginTop: 5,
+  marginTop: 2,
   marginHorizontal: 10,
 };
 
