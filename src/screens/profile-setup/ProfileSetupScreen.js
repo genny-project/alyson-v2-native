@@ -56,11 +56,16 @@ class ProfileSetupScreen extends Component {
             placeholderTextColor="#1a1a1a"
             placeholder="Through Number"
           />
-          <Text
-            style={styles.bio}
-            placeholderTextColor="#1a1a1a"
-          > Bios
-          </Text>
+
+          <View style={styles.bioTextWrapper}>
+            <Text
+              style={{ marginRight: 210, fontWeight: 'bold' }}
+              placeholderTextColor="#1a1a1a"
+            > Bio
+            </Text>
+            <Text> [140 Characters]</Text>
+          </View>
+
           <TextInput
             placeholder="Bio"
             style={styles.textarea}

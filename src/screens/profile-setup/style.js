@@ -36,10 +36,17 @@ const contactMethod = {
 const bio = {
   marginTop: 20,
   height: 30,
-  textAlign: 'center',
-  alignItems: 'center',
-  justifyContent: 'center',
   fontWeight: 'bold',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+};
+
+
+const bioTextWrapper = {
+  marginTop: 10,
+  marginHorizontal: 15,
+  flexDirection: 'row',
+  flex: 1,
 };
 
 const button = {
@@ -55,6 +62,7 @@ const styles = StyleSheet.create({
   container: { ...container },
   bio: { ...bio },
   button: { ...button },
+  bioTextWrapper: { ...bioTextWrapper },
 });
 
 
