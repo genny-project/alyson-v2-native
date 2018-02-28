@@ -1,15 +1,19 @@
 import { StackNavigator } from 'react-navigation';
 
-import { ProfileScreen } from '../screens';
+import { ProfileScreen, ProfileSetupScreen } from '../screens';
 
 const RootStack = StackNavigator(
   {
     Profile: {
       screen: ProfileScreen,
     },
+    ProfileSetup: {
+      screen: ProfileSetupScreen,
+    },
   },
+
   {
-    initialRouteName: 'Profile',
+    initialRouteName: 'ProfileSetup',
   },
 );
 

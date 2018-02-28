@@ -8,7 +8,7 @@ class ProfileImage extends Component {
   render() {
     return (
       <View>
-        <Image source={this.props.imageURL} style={styles.image} />
+        <Image source={this.props.imageURL} style={[styles.image, this.props.style]} />
       </View>
     );
   }

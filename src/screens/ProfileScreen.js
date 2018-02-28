@@ -8,7 +8,7 @@ class ProfileScreen extends Component {
 
   render() {
     return (
-      <Text> Hello </Text>
+      <Text> Hello there </Text>
     );
   }
 }
