@@ -5,11 +5,11 @@ import buttonStyle from './style';
 
 
 const Button = ({
-  text, onPress, style, outline,
+  text, onPress, style, outline, block,
 }) => (
   <TouchableHighlight
     onPress={onPress}
-    style={[buttonStyle.warning, outline ? buttonStyle.outline : null, style]}
+    style={[buttonStyle.warning, outline ? buttonStyle.outline : null, style, block ? buttonStyle.block : null, style]}
   >
     <Text style={[buttonStyle.text, outline === true ? { color: '#444' } : null]} > {text} </Text>
   </TouchableHighlight>
@@ -18,6 +18,7 @@ const Button = ({
 Button.defaultProps = {
   text: 'Default text',
   outline: false,
+  block: false,
 };
 
 export default Button;

@@ -48,6 +48,10 @@ const mediumBtn = {
 };
 
 
+const block = {
+  width: '100%',
+};
+
 const text = {
   color: '#fff',
   textAlign: 'center',
@@ -64,6 +68,7 @@ const styles = StyleSheet.create({
   medium: { ...mediumBtn },
   large: { ...largeBtn },
   outline: { ...outline },
+  block: { ...defaultBtn, ...largeBtn, ...block },
   text,
 });
 
