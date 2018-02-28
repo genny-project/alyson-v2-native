@@ -26,8 +26,9 @@ class ProfileSetupScreen extends Component {
               justifyContent: 'center',
               flex: 0,
             }}
-            />
-            <Text style={{ color: '#fff' }}> Upload Picture</Text>
+            >
+              <Text style={{ color: '#fff' }}> Upload Picture</Text>
+            </View>
           </View>
           <TextInput
             style={styles.input}
