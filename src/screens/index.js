@@ -1,2 +1,9 @@
 export { default as ProfileScreen } from './ProfileScreen';
 export { default as ProfileSetupScreen } from './profile-setup';
+export { default as LoginScreen } from './login';
+export { default as SignupScreen } from './signup';
+export { default as EducationScreen } from './education';
+export { default as EmploymentHistoryScreen } from './employment-history';
+export { default as GroupAssociationsScreen } from './group-and-associations';
+export { default as InterestsScreen } from './interests';
+export { default as PastEmploymentScreen } from './past-employment';
