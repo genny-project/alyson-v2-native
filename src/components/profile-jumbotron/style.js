@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 
 const container = {
   flex: 0,
-  height: 290,
+  height: 310,
   backgroundColor: '#f8f8f8',
   padding: 10,
   justifyContent: 'flex-start',
@@ -11,26 +11,26 @@ const container = {
 };
 
 const name = {
-  marginTop: 5,
-  fontSize: 20,
+  marginTop: 10,
+  fontSize: 24,
   color: '#0084ff',
 };
 
 const position = {
-  marginTop: 5,
+  marginTop: 10,
   fontSize: 14,
   color: '#0084ff',
 
 };
 const company = {
-  marginTop: 5,
+  marginTop: 10,
   fontSize: 14,
   color: '#0084ff',
 
 };
 
 const website = {
-  marginTop: 5,
+  marginTop: 10,
   fontSize: 14,
 };
 
