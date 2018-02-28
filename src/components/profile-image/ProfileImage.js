@@ -4,6 +4,9 @@ import { string } from 'prop-types';
 import defaultImage from '../../assets/profile.png';
 import styles from './style';
 
+console.disableYellowBox = true;
+
+
 class ProfileImage extends Component {
   render() {
     return (
@@ -18,6 +21,7 @@ class ProfileImage extends Component {
 ProfileImage.defaultProps = {
   imageURL: defaultImage,
 };
+
 
 ProfileImage.propTypes = {
   imageURL: string,
