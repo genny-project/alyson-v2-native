@@ -24,7 +24,7 @@ class ProfileSetupScreen extends Component {
           <TextInput style={styles.input} placeholder="PA" />
           <TextInput style={styles.input} placeholder="Through Number" />
           <Text style={styles.bio}> Bio </Text>
-          <TextInput placeholder="Bio" style={styles.textarea} />
+          <TextInput placeholder="Bio" style={styles.textarea} multiline numberOfLines={6} />
           <Button text="Next" block style={styles.button} />
         </View>
       </ScrollView>
