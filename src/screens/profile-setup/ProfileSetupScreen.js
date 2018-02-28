@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View, TextInput, ScrollView } from 'react-native';
 import ProfileJumbotron from '../../components/profile-jumbotron';
-import { Button } from '../../components';
+import { Button, ProfileImage } from '../../components';
 
 import styles from './style';
 
@@ -14,7 +14,21 @@ class ProfileSetupScreen extends Component {
     return (
       <ScrollView>
         <View style={styles.container}>
-          <ProfileJumbotron />
+          <View style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <View style={{
+              display: 'flex',
+              height: 120,
+              width: 120,
+              borderRadius: 60,
+              backgroundColor: 'black',
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flex: 0,
+            }}
+            />
+            <Text style={{ color: '#fff' }}> Upload Picture</Text>
+          </View>
           <TextInput
             style={styles.input}
             placeholder="First Names"
