@@ -6,6 +6,7 @@ import {
   View
 } from 'react-native';
 import {Button, Tag, Card} from './src/components';
+import Navigator from './src/config/Route';
 
 
 
@@ -22,10 +23,7 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-
-      <View style={styles.container}>
-      <Card title="Heading" description="lorem ipsum heading" subDescription="This is a sub description" buttonText="Edit"/>
-      </View>
+      <Navigator/>
     );
   }
 }
@@ -38,7 +36,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#fff',
   },
-  
+
   welcome: {
     fontSize: 20,
     textAlign: 'center',
