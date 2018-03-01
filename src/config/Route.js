@@ -19,7 +19,7 @@ const RootStack = StackNavigator(
   },
 
   {
-    initialRouteName: 'Signup',
+    initialRouteName: 'ProfileSetup',
   },
 );
 

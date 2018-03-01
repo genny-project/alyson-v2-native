@@ -20,11 +20,13 @@ class ProfileSetupScreen extends Component {
               height: 120,
               width: 120,
               borderRadius: 60,
-              backgroundColor: 'black',
+              backgroundColor: '#444',
               flexDirection: 'row',
               alignItems: 'center',
               justifyContent: 'center',
               flex: 0,
+              marginBottom: 20,
+              marginTop: 10,
             }}
             >
               <Text style={{ color: '#fff' }}> Upload Picture</Text>

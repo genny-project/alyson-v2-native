@@ -26,7 +26,7 @@ const textarea = {
 
 const contactMethod = {
   marginTop: 20,
-  height: 30,
+  marginBottom: 20,
   textAlign: 'center',
   alignItems: 'center',
   justifyContent: 'center',
@@ -43,16 +43,18 @@ const bio = {
 
 
 const bioTextWrapper = {
-  marginTop: 10,
+  marginTop: 15,
+  marginBottom: 15,
   marginHorizontal: 15,
   flexDirection: 'row',
   flex: 1,
 };
 
 const button = {
-  marginTop: 10,
-  width: '96%',
-  marginHorizontal: 6,
+  marginVertical: 20,
+  width: '90%',
+  marginHorizontal: 16,
+
 };
 
 const styles = StyleSheet.create({
