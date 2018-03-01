@@ -9,6 +9,11 @@ class LoginScreen extends Component {
     title: 'Login',
   };
 
+  navigateToSignup = () => {
+    console.log(this.props);
+    this.props.navigation.navigate('Signup');
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -23,7 +28,7 @@ class LoginScreen extends Component {
           placeholderTextColor='#888'
           style={styles.input}/>
         <Button block text="Login" style={{width: '80%', marginTop:20}}/>
-        <Text style={styles.signupLink}> Signup </Text>
+        <Text style={styles.signupLink} onPress={this.navigateToSignup}> Signup </Text>
 
       </View>
 

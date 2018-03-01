@@ -1,6 +1,6 @@
 import { StackNavigator } from 'react-navigation';
 
-import { ProfileScreen, ProfileSetupScreen, LoginScreen } from '../screens';
+import { ProfileScreen, ProfileSetupScreen, LoginScreen, SignupScreen } from '../screens';
 
 const RootStack = StackNavigator(
   {
@@ -13,10 +13,13 @@ const RootStack = StackNavigator(
     Login: {
       screen: LoginScreen,
     },
+    Signup: {
+      screen: SignupScreen,
+    },
   },
 
   {
-    initialRouteName: 'Login',
+    initialRouteName: 'Signup',
   },
 );
 

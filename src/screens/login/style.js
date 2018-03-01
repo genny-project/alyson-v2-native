@@ -12,10 +12,11 @@ const container = {
 
 
 const header = {
-  fontSize: 24,
+  fontSize: 32,
   color: '#fff',
   fontFamily: 'Lato',
   fontWeight: '700',
+  marginBottom: 10,
 };
 
 const input = {
@@ -25,12 +26,12 @@ const input = {
   width: '80%',
   backgroundColor: '#fff',
   marginTop: 20,
-  padding: 5,
+  padding: 10,
 };
 
 const signupLink = {
   color: '#fff',
-  marginTop: 10,
+  marginTop: 20,
 };
 const styles = StyleSheet.create({
   container,
