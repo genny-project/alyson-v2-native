@@ -7,3 +7,6 @@ export { default as EmploymentHistoryScreen } from './employment-history';
 export { default as GroupAssociationsScreen } from './group-and-associations';
 export { default as InterestsScreen } from './interests';
 export { default as PastEmploymentScreen } from './past-employment';
+export { default as SettingsScreen } from './settings';
+export { default as NotificationsScreen } from './notifications';
+export { default as HomeScreen } from './home';

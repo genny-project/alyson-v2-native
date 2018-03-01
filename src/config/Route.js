@@ -1,6 +1,29 @@
-import { StackNavigator } from 'react-navigation';
+import React from 'react';
+import { StackNavigator, TabNavigator, TabBarBottom } from 'react-navigation';
 
-import { ProfileScreen, ProfileSetupScreen, LoginScreen, SignupScreen } from '../screens';
+import { ProfileScreen, ProfileSetupScreen, LoginScreen, SignupScreen, NotificationsScreen, SettingsScreen } from '../screens';
+
+const LoggedInScreen = TabNavigator(
+  {
+    Notification: {
+      screen: NotificationsScreen,
+    },
+    Settings: {
+      screen: SettingsScreen,
+    },
+  },
+  {
+    tabBarOptions: {
+      activeTintColor: 'tomato',
+      inactiveTintColor: 'gray',
+    },
+    tabBarComponent: TabBarBottom,
+    tabBarPosition: 'bottom',
+    animationEnabled: false,
+    swipeEnabled: false,
+  },
+);
+
 
 const RootStack = StackNavigator(
   {
@@ -16,12 +39,13 @@ const RootStack = StackNavigator(
     Signup: {
       screen: SignupScreen,
     },
+    LoggedIn: {
+      screen: LoggedInScreen,
+    },
   },
-
   {
-    initialRouteName: 'ProfileSetup',
+    initialRouteName: 'LoggedIn',
   },
 );
-
 
 export default RootStack;
