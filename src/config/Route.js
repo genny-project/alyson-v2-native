@@ -1,10 +1,13 @@
 import React from 'react';
 import { StackNavigator, TabNavigator, TabBarBottom } from 'react-navigation';
 
-import { ProfileScreen, ProfileSetupScreen, LoginScreen, SignupScreen, NotificationsScreen, SettingsScreen } from '../screens';
+import { ProfileScreen, ProfileSetupScreen, LoginScreen, SignupScreen, NotificationsScreen, SettingsScreen, HomeScreen } from '../screens';
 
 const LoggedInScreen = TabNavigator(
   {
+    Home: {
+      screen: HomeScreen,
+    },
     Notification: {
       screen: NotificationsScreen,
     },
@@ -12,6 +15,7 @@ const LoggedInScreen = TabNavigator(
       screen: SettingsScreen,
     },
   },
+
   {
     tabBarOptions: {
       activeTintColor: 'tomato',
@@ -22,6 +26,7 @@ const LoggedInScreen = TabNavigator(
     animationEnabled: false,
     swipeEnabled: false,
   },
+
 );
 
 
