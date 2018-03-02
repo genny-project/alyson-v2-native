@@ -17,7 +17,7 @@ class LoginScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.header}> 4 Degrees </Text>
+        <Text style={styles.header}> Company Name </Text>
         <TextInput
           placeholder="Email"
           placeholderTextColor='#888'
