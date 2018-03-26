@@ -16,9 +16,7 @@ const outline = {
   borderColor: '#3498db',
   backgroundColor: '#fff',
   padding: 8,
-
 };
-
 
 const dangerBtn = {
   backgroundColor: '#e74c3c',
@@ -47,7 +45,6 @@ const mediumBtn = {
   height: 40,
 };
 
-
 const block = {
   width: '100%',
 };
@@ -56,7 +53,6 @@ const text = {
   color: '#fff',
   textAlign: 'center',
   fontWeight: '700',
-
 };
 
 const styles = StyleSheet.create({
