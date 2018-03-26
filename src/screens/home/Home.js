@@ -9,7 +9,7 @@ class HomeScreen extends Component {
       <View>
         <Text> Home Screen </Text>
         <ButtonStyled primary>
-          <Text> Hello </Text>
+          <Text> Hello Button </Text>
         </ButtonStyled>
 
         {/* <Button>
