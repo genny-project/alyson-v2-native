@@ -18,7 +18,7 @@ const ButtonStyled = styled.TouchableHighlight`
           : props.theme.colors.primary)};
   border-radius: 3;
   height: ${props => (props.small ? 30 : 40)};
-  width: ${props => (props.small ? 150 : 200)};
+  width: ${props => (props.small ? 150 : 180)};
   border: ${props => (props.outline ? '3px solid yellow' : '0px ')};
 `;
 

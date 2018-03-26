@@ -1,6 +1,6 @@
 const theme = {
   colors: {
-    primary: 'royalblue',
+    primary: '#3498db',
     success: 'mediumseagreen',
     warning: 'darkorange',
     danger: 'red',

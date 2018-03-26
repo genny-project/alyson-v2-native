@@ -1,7 +1,15 @@
 import React from 'react';
 import { StackNavigator, TabNavigator, TabBarBottom } from 'react-navigation';
 
-import { ProfileScreen, ProfileSetupScreen, LoginScreen, SignupScreen, NotificationsScreen, SettingsScreen, HomeScreen } from '../screens';
+import {
+  ProfileScreen,
+  ProfileSetupScreen,
+  LoginScreen,
+  SignupScreen,
+  NotificationsScreen,
+  SettingsScreen,
+  HomeScreen,
+} from '../screens';
 
 const LoggedInScreen = TabNavigator(
   {
@@ -26,9 +34,7 @@ const LoggedInScreen = TabNavigator(
     animationEnabled: false,
     swipeEnabled: false,
   },
-
 );
-
 
 const RootStack = StackNavigator(
   {

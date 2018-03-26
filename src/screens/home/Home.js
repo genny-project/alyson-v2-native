@@ -1,11 +1,21 @@
-import React, { Component } from 'react';
-import { Text, View } from 'react-native';
-import styles from './style';
-import { ButtonStyled, Button } from '../../components';
-import { ThemeProvider } from 'styled-components';
-import theme from '../../theme';
+import React, { Component } from "react";
+import { Text, View } from "react-native";
+import styles from "./style";
+import { ButtonStyled, Button } from "../../components";
+import { ThemeProvider } from "styled-components";
+import theme from "../../theme";
 
 class HomeScreen extends Component {
+  static navigationOptions = {
+    title: "Home",
+    headerStyle: {
+      backgroundColor: theme.colors.primary
+    },
+    headerTintColor: "#fff",
+    headerTitleStyle: {
+      fontWeight: "bold"
+    }
+  };
   render() {
     return (
       <View>
