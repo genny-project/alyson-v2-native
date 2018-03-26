@@ -1,7 +1,10 @@
 const theme = {
-  main: 'mediumseagreen',
-  primary: 'royalblue',
-  warning: 'darkorange',
+  colors: {
+    primary: 'royalblue',
+    success: 'mediumseagreen',
+    warning: 'darkorange',
+    danger: 'red',
+  },
 };
 
 export default theme;

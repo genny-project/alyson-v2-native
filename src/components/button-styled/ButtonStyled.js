@@ -11,7 +11,11 @@ const ButtonStyled = styled.TouchableHighlight`
   background-color: ${props =>
     (props.outline
       ? 'transparent'
-      : props.primary ? '#3498db' : props.danger ? 'red' : '#3498db')};
+      : props.primary
+        ? props.theme.colors.primary
+        : props.danger
+          ? props.theme.colors.danger
+          : props.theme.colors.primary)};
   border-radius: 3;
   height: ${props => (props.small ? 30 : 40)};
   width: ${props => (props.small ? 150 : 200)};
